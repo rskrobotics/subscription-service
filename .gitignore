@@ -1,0 +1,38 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Executables
+*.out
+
+# Go workspace stuff
+**/bin/
+**/pkg/
+*.test
+
+# Dependency directories
+vendor/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Test and coverage
+*.cover
+*.cov
+*.coverage
+coverage.out
+*.prof
+
+# Logs
+*.log
+
+# Go modules cache (do not ignore go.mod or go.sum)
+go.sum
+go.work
