@@ -36,3 +36,9 @@ coverage.out
 # Go modules cache (do not ignore go.mod or go.sum)
 go.sum
 go.work
+
+# db-data excluded, but left the folder structure
+db-data/postgres/*
+!db-data/postgres/.gitkeep
+db-data/redis/*
+!db-data/redis/.gitkeep
