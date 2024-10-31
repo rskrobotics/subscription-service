@@ -42,3 +42,6 @@ db-data/postgres/*
 !db-data/postgres/.gitkeep
 db-data/redis/*
 !db-data/redis/.gitkeep
+
+# compiled binary skip
+compiled_binary
